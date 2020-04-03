@@ -1,0 +1,31 @@
+{
+	"name": "ikerst/tesseract_ocr",
+	"description": "A wrapper to work with Tesseract OCR inside PHP.",
+	"version": "1.0.0",
+	"type": "library",
+	"keywords": ["Tesseract", "OCR", "text recognition"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "IkerST",
+			"email": "IkerST@me.com"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/IkerST/tesseract-ocr-for-php/issues",
+		"irc": "irc://irc.freenode.net/tesseract-ocr-for-php",
+		"source": "https://github.com/IkerST/tesseract-ocr-for-php"
+	},
+	"require": {
+		"php": "^5.4 || ^7.0"
+	},
+	"require-dev": {
+		"phpunit/php-code-coverage": "^2.2.4",
+		"codacy/coverage": "dev-master"
+	},
+	"autoload": {
+		"psr-4": {
+			"IkerST\\TesseractOCR\\": "src/"
+		}
+	}
+}
